@@ -10,10 +10,10 @@ class CalcComponent extends React.Component {
             <div>
                 <input/>&nbsp<input/>
                 <br/><br/>
-                <input type={"button"} value={"+"}/>&nbsp
-                <input type={"button"} value={"-"}/>&nbsp
-                <input type={"button"} value={"/"}/>&nbsp
-                <input type={"button"} value={"*"}/>&nbsp
+                <input type={"button"} value={"+"} onClick={}/>&nbsp
+                <input type={"button"} value={"-"} onClick={}/>&nbsp
+                <input type={"button"} value={"/"} onClick={}/>&nbsp
+                <input type={"button"} value={"*"} onClick={}/>&nbsp
             </div>
         );
     }
