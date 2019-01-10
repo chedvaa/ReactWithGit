@@ -1,0 +1,93 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-title {
+    font-size: 1.5em;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.b1{
+    height: 25px;
+    width: 100px;
+    background-color: red;
+}
+h1{
+    text-align: center;
+    font-family: Bradley Hand ITC;
+    font-weight: bold ;
+    font-size: 3em;
+}
+td{
+    width: 80px;
+    height: 80px;
+    font-family: Calibri;
+}
+th{
+    font-family: Bradley Hand ITC;
+    width: 80px;
+    height: 80px;
+    background-color: lightgray;
+
+}
+#t{
+    background-color: lightgray;
+}
+input{
+    width: 80px;
+    height: 80px;
+    font-size: xx-large;
+    background-color: white;
+    border:gray;
+    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.1);
+    font-family: Calibri;
+
+}
+input:hover {background-color: lightgray;}
+input:focus{outline: none;}
+#equals{
+    width: 164px;
+}
+#num{
+    width: 245px;
+    font-size: xx-large;
+    text-align: center;
+    position: inherit;
+    right: 780px;
+    background-color: lightgray;
+
+}
+#calc{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    right: 780px;
+}
+table{
+    position: absolute;
+    right: 780px;
+
+}
+label{
+    font-size: xx-large;
+    border: none;
+}
